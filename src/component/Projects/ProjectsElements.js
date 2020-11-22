@@ -60,15 +60,18 @@ box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.4);
 `;
 export const ProjectCard =styled.div`
 background:#f2f2f2;
-// height:250px;
-// width:200px;
+ height:350px;
+ width:404px;
 transition:  0.4s ease-in-out;
 border-radius:15px;
 overflow:hidden;
 box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.4);
 &:hover{
-
     transform: scale(1.1)
+}
+
+@media screen and (max-width:768px){
+    width:350px
 }
 `;
 export const ProCardBody=styled.div`
@@ -96,6 +99,7 @@ export const ProBody=styled.p`
 padding:10px;
 font-size:18px;
 font-family:'PT Sans', sans-serif;
+text-align:center;
 `;
 export const ProTitle =styled.h3`
 // text-align:center;
@@ -105,8 +109,13 @@ color:black
 export const ProButton=styled.div`
 display:flex;
 justify-content:space-evenly;
+align-items:center;
 font-size:24px;
 padding:10px;
+`;
+export const IconProject =styled.a`
+color:#000;
+
 `;
 export const IconBtn =styled(FaGithubSquare)`
 color:black;

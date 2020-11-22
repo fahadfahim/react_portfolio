@@ -17,7 +17,7 @@ const Hero = () => {
             </HeroBg>
             <HeroContent>
                 
-                <Typing speed={400} >
+                <Typing speed={150} >
                 {/* <Typing.Speed ms={200} /> */}
     <HeroH1> <span className='md'>Think</span> Dynamic <span className='md'>Web</span></HeroH1>
                 {/* <Typing.Backspace count={20} /> */}
@@ -27,10 +27,10 @@ const Hero = () => {
                 <HeroH2> <span className='md'>I'</span>m Fahad</HeroH2>
                 {/* <Typing.Backspace count={11} /> */}
                     </Typing>
-                    <Typing speed={10}  loop={true}>
+                    <Typing speed={150}>
                     {/* <Typing.Speed ms={50} /> */}
                 <HeroP>Web Developer, Programmer, Freelancer</HeroP>
-                <Typing.Backspace count={37} />
+                {/* <Typing.Backspace count={37} /> */}
 
                 </Typing>
                 <HeroBtnWrapper>

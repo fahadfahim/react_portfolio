@@ -21,7 +21,7 @@ const Sidebar = ({isOpen,toggle,openModal}) => {
                     
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute onClick={(toggle) ? (openModal) : (toggle)}>Sign Up</SidebarRoute>
+                    <SidebarRoute onClick={(toggle) ? (openModal) : (toggle)}>Contact</SidebarRoute>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>

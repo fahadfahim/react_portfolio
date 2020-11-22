@@ -101,6 +101,7 @@ font-size:20px;
 }
 `;
 export const Icon =styled.a`
+color:#000;
 display:block;
 padding-right:20px;
 transition:0.5s ease-in-out;

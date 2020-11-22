@@ -29,6 +29,10 @@ export const ModalWrapper = styled.div`
 
   z-index: 10;
   border-radius: 10px;
+
+  @media screen and(max-width:768px){
+    width:500px;
+  }
 `;
 
 export const ModalImg = styled.img`
@@ -67,6 +71,12 @@ export const CloseModalButton = styled(MdClose)`
   height: 32px;
   padding: 0;
   z-index: 10;
+  culor:#000;
+
+  @media screen and (max-width:768px){
+    position:absolute;
+    right:50px;
+  }
 `;
 
 export const Text =styled.span`
